@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main_container {
+    width: 25%; 
+    padding: 10px;
+
+    background-color: rgb(214, 214, 212);
+}
+
+.company_heading {
+    width: 100%; 
+
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.company_name {
+    width: 100%;
+
+    text-align: center;
+}
+
+.greeting_provider {
+    margin: 4px 0px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting_closer {
+    background-color: rgb(170, 197, 248);
+    padding: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loading_quotes {
+    width: 100%; 
+    height: 100%;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes {
+    display:none;
+}
+
+.quotes_shower_main {
+    background-color: white;
+    width: 100%;
+    min-height: 75px;
+
+    padding: 10px 60px;
+
+    position: relative;
+
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    word-wrap: break-word;
+    
+}
+.prev_button , .next_button {
+    position: absolute;
+
+    background-color: rgb(180, 88, 88);
+    color: white;
+
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prev_button {
+    top: auto;
+    left: 5px;
+}
+.next_button {
+    top: auto;
+    right: 10px;
+}
+
+.meta_info {
+    margin-top: 4px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+
+    font-size: 15px;
+}
