@@ -8,7 +8,7 @@ const meta_info_avail_page = document.querySelector('.we_have');
 const meta_info_yo_in = document.querySelector('.you_in');
 let quotesFetched = [];
 
-// DUMMY COMMENTS //
+// DUMMY COMMENTS //GIT AGIT
 
 // By Doing Set Time out get the info async way : 
 setTimeout(() => {

@@ -1,0 +1,11 @@
+{
+    "name": "Quotes Provider",
+    "version": "1.0.0",
+    "description": "Latest Quotes will provide u the good feeling",
+    "manifest_version": 3,
+    "author": "Gobikrishnan",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Motivatinol quotes"
+    }
+}
